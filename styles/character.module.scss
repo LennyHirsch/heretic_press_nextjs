@@ -1,0 +1,72 @@
+@import 'colors';
+
+.main {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    width: auto;
+    margin: 0.5rem 0;
+}
+
+.card {
+    background: $darker-grey;
+    color: $white;
+    border-radius: 5px;
+}
+
+.glow {
+    text-shadow: 0 0 5px $gold;
+}
+
+.characterCard {
+    display: flex;
+    flex-flow: column nowrap;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    text-align: center;
+    margin-right: 0.25rem;
+    h3 {
+        margin: 0.5rem auto;
+    }
+    p {
+        margin: 0.25rem auto;
+        font-size: 0.7rem;
+    }
+    .characterPic {
+        margin: 0 auto;
+        border-radius: 5px;
+    }
+}
+
+.abilitiesContainer {
+    display: flex;
+    flex-flow: row nowrap;
+    .abilityCard {
+        display: flex;
+        flex-flow: column nowrap;
+        text-align: center;
+        margin: 0 0.25rem;
+        .ability {
+            display: flex;
+            flex-flow: column nowrap;
+            gap: 1rem;
+            padding: 1rem;
+            margin-bottom: 0.5rem;
+            h2 {
+                background: $dark-grey;
+                border-radius: 5px;
+                width: 2rem;
+                padding: 0.5rem;
+                margin: auto;
+            }
+            h3 {
+                margin: auto;
+            }
+            h6 {
+                margin: auto;
+            }
+        }
+    }
+}
+

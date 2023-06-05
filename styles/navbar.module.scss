@@ -1,0 +1,29 @@
+@import 'colors';
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    background: $dark-grey;
+    width: auto;
+    height: 50px;
+}
+
+.navitem {
+    flex-grow: 1;
+    color: $white;
+    text-decoration: none;
+    text-align: center;
+    height: 50px;
+}
+
+.active {
+    flex-grow: 1;
+    color: $white;
+    text-decoration: none;
+    text-align: center;
+    height: 50px;
+    background: $darker-grey;
+}

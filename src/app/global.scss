@@ -1,0 +1,12 @@
+@import '../../styles/colors';
+
+body {
+    background: linear-gradient(120deg, $gradient1, $gradient2);
+    font-family: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
+    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
+    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+}
+
+p {
+    color: $white;
+}
