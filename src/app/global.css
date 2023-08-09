@@ -1,0 +1,8 @@
+body {
+  background: linear-gradient(120deg, #192232, #233453);
+  font-family: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono", "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro", "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
+}
+
+p {
+  color: #f7f0ee;
+}/*# sourceMappingURL=global.css.map */

@@ -6,8 +6,10 @@
     justify-content: flex-start;
     align-items: center;
     align-content: center;
-    background: $dark-grey;
+    background: $darkback;
     width: auto;
+    margin: 0;
+    padding: 0;
     height: 50px;
 }
 
@@ -25,5 +27,5 @@
     text-decoration: none;
     text-align: center;
     height: 50px;
-    background: $darker-grey;
+    background: $back;
 }

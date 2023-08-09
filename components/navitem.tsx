@@ -1,6 +1,6 @@
 import Link from 'next/link';
 
-const NavItem = ({ text, href, active }) => {
+const NavItem = ({ text, href, active }: any) => {
     return (
         <Link href={href}>
             <a className={`nav__item ${ active ? "active" : "" }`}>

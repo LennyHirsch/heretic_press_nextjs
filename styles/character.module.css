@@ -1,0 +1,69 @@
+.main {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: stretch;
+  width: auto;
+  margin: 0.5rem 0;
+}
+
+.card {
+  background: #2b3546;
+  color: #f7f0ee;
+  border-radius: 5px;
+}
+
+.glow {
+  text-shadow: 0 0 5px #ffb700;
+}
+
+.characterCard {
+  display: flex;
+  flex-flow: column nowrap;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  text-align: center;
+  margin-right: 0.25rem;
+}
+.characterCard h3 {
+  margin: 0.5rem auto;
+}
+.characterCard p {
+  margin: 0.25rem auto;
+  font-size: 0.7rem;
+}
+.characterCard .characterPic {
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.abilitiesContainer {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.abilitiesContainer .abilityCard {
+  display: flex;
+  flex-flow: column nowrap;
+  text-align: center;
+  margin: 0 0.25rem;
+}
+.abilitiesContainer .abilityCard .ability {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 1rem;
+  padding: 1rem;
+  margin-bottom: 0.5rem;
+}
+.abilitiesContainer .abilityCard .ability h2 {
+  background: #313f58;
+  border-radius: 5px;
+  width: 2rem;
+  padding: 0.5rem;
+  margin: auto;
+}
+.abilitiesContainer .abilityCard .ability h3 {
+  margin: auto;
+}
+.abilitiesContainer .abilityCard .ability h6 {
+  margin: auto;
+}/*# sourceMappingURL=character.module.css.map */

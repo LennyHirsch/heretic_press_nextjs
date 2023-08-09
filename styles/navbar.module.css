@@ -1,0 +1,27 @@
+.navbar {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: center;
+  background: #313f58;
+  width: auto;
+  height: 50px;
+}
+
+.navitem {
+  flex-grow: 1;
+  color: #f7f0ee;
+  text-decoration: none;
+  text-align: center;
+  height: 50px;
+}
+
+.active {
+  flex-grow: 1;
+  color: #f7f0ee;
+  text-decoration: none;
+  text-align: center;
+  height: 50px;
+  background: #2b3546;
+}/*# sourceMappingURL=navbar.module.css.map */

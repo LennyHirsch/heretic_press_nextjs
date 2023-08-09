@@ -9,13 +9,13 @@
 }
 
 .card {
-    background: $darker-grey;
+    background: $darkback;
     color: $white;
     border-radius: 5px;
 }
 
 .glow {
-    text-shadow: 0 0 5px $gold;
+    // text-shadow: 0 0 5px $gold;
 }
 
 .characterCard {
@@ -54,7 +54,7 @@
             padding: 1rem;
             margin-bottom: 0.5rem;
             h2 {
-                background: $dark-grey;
+                background: $lightback;
                 border-radius: 5px;
                 width: 2rem;
                 padding: 0.5rem;

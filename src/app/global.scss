@@ -1,12 +1,28 @@
 @import '../../styles/colors';
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Fraktur';
+    src: url(/fonts/BreitkopfFraktur.ttf);
+}
+
 body {
-    background: linear-gradient(120deg, $gradient1, $gradient2);
-    font-family: ui-monospace, Menlo, Monaco, 'Cascadia Mono', 'Segoe UI Mono',
-    'Roboto Mono', 'Oxygen Mono', 'Ubuntu Monospace', 'Source Code Pro',
-    'Fira Mono', 'Droid Sans Mono', 'Courier New', monospace;
+    background: linear-gradient(120deg, $lightback, $darkback);
+    font-family: Montserrat;
 }
 
 p {
     color: $white;
+    font-size: 20px;
+    font-family: Montserrat;
+}
+
+h2 {
+    color: $white;
+    font-size: 2em;
+    font-family: Montserrat;
 }

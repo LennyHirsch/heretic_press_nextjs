@@ -7,13 +7,15 @@ export default function Card( {src, alt, name, description, href}: any ) {
             <div className={styles.card}>
                 <Image className={styles.profilePic}
                     src={src}
-                    width={200}
-                    height={200}
+                    width={500}
+                    height={500}
                     alt={alt}
                 />
-                <h2>{name}</h2>
-                <p>{description}</p>
-                <Link className={styles.button} href={href}>Click</Link>
+                <div className={styles.copy}>
+                    <h2 className={styles.title}>{name}</h2>
+                    <p className={styles.text}>{description}</p>
+                    <Link className={styles.button} href={href}>Click</Link>
+                </div>
             </div>
     );
 }
