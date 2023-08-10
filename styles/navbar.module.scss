@@ -1,31 +1,57 @@
 @import 'colors';
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url(/fonts/Montserrat-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Fraktur';
+    src: url(/fonts/BreitkopfFraktur.ttf);
+}
+
 .navbar {
+    font-family: Montserrat;
+    font-size: 30px;
     display: flex;
     flex-flow: row nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: center;
+    justify-content: flex-end;
+    align-items: stretch;
+    align-content: stretch;
     background: $darkback;
-    width: auto;
+    width: auto 0;
     margin: 0;
     padding: 0;
-    height: 50px;
+    height: 100px;
 }
 
 .navitem {
-    flex-grow: 1;
     color: $white;
     text-decoration: none;
     text-align: center;
-    height: 50px;
+    // height: 100px;
+    margin: auto 0;
+    padding: 0 10px;
 }
 
 .active {
-    flex-grow: 1;
     color: $white;
     text-decoration: none;
     text-align: center;
-    height: 50px;
-    background: $back;
+    // height: 100px;
+    // background: $back;
+    margin: auto 0;
+    padding: 0 10px;
+}
+
+.Navlogo {
+    // flex-grow: 1;
+    height: 80px;
+    width: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.Navspacer {
+    flex-grow: 1;
 }

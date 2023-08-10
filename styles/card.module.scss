@@ -1,6 +1,6 @@
 @import 'colors';
 
-.card {
+.cardright {
     background: $darkback;
     color: $white;
     display: flex;
@@ -10,6 +10,20 @@
     margin: 1rem;
     width: 70%;
     padding: 1rem;
+    align-self: flex-end;
+}
+
+.cardleft {
+    background: $darkback;
+    color: $white;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 1rem;
+    width: 70%;
+    padding: 1rem;
+    align-self: flex-start;
 }
 
 .copy {

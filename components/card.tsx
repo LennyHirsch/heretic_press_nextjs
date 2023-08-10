@@ -2,9 +2,9 @@ import styles from '../styles/card.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
 
-export default function Card( {src, alt, name, description, href}: any ) {
+export default function Card( {src, alt, name, description, href, align}: any ) {
     return (
-            <div className={styles.card}>
+            <div className={align ? styles.cardleft : styles.cardright}>
                 <Image className={styles.profilePic}
                     src={src}
                     width={500}

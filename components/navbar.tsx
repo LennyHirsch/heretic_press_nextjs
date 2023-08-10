@@ -5,6 +5,8 @@ export default function Navbar( { active }:any) {
     const content = ['Home', 'About', 'Contact'];
     return (
         <div className={styles.navbar}>
+                <img className={styles.Navlogo} src='/images/hlogo.svg'/>
+                <div className={styles.Navspacer}></div>
                 <Navitem src='#' content={content[0]} active={active == '0' ? true : false}></Navitem>
                 <Navitem src='#' content={content[1]} active={active == '1' ? true : false}></Navitem>
                 <Navitem src='#' content={content[2]} active={active == '2' ? true : false}></Navitem>
